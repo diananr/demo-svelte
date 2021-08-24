@@ -1,10 +1,11 @@
 <script>
-	export let name;
+	export let userName;
+	export let petName;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Hello, my name is {userName}</h1>
+	<p>My little pet is {petName}</p>
 </main>
 
 <style>
